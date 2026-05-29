@@ -23,6 +23,8 @@ This project investigates whether alpha signal decay is a static property of a s
 │   └── master_metrics_with_regimes.csv  # Final dataset with HMM labels (not tracked)
 ├── figures/
 │   ├── tsla_regimes.png                 # TSLA price path with regime shading
+│   ├── msft_regimes.png                 # MSFT price path with regime shading
+│   ├── bio_regimes.png                  # BIO price path with regime shading
 │   ├── ic_decay_curves.png              # IC decay curves by regime
 │   └── ic_heatmaps.png                  # Side-by-side momentum vs mean-reversion heatmaps
 ├── 01_data_pipeline.ipynb               # Data ingestion, Lee-Ready, feature engineering
