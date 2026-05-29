@@ -17,21 +17,21 @@ This project investigates whether alpha signal decay is a static property of a s
 
 ```
 ├── data/
-│   ├── raw/                             # Raw Databento MBP-1 .dbn.zst files (not tracked)
-│   ├── processed/                       # Daily 5-min CSV aggregates (not tracked)
-│   ├── master_metrics.csv               # Combined feature dataset (not tracked)
-│   └── master_metrics_with_regimes.csv  # Final dataset with HMM labels (not tracked)
+│   ├── raw/                                             # Raw Databento MBP-1 .dbn.zst files (not tracked)
+│   ├── processed/                                       # Daily 5-min CSV aggregates (not tracked)
+│   ├── master_metrics.csv                               # Combined feature dataset (not tracked)
+│   └── master_metrics_with_regimes.csv                  # Final dataset with HMM labels (not tracked)
 ├── figures/
-│   ├── tsla_regimes.png                 # TSLA price path with regime shading
-│   ├── msft_regimes.png                 # MSFT price path with regime shading
-│   ├── bio_regimes.png                  # BIO price path with regime shading
-│   ├── ic_decay_curves.png              # IC decay curves by regime
-│   └── ic_heatmaps.png                  # Side-by-side momentum vs mean-reversion heatmaps
-├── 01_data_pipeline.ipynb               # Data ingestion, Lee-Ready, feature engineering
-├── 01_exploration.ipynb                 # Initial data exploration
-├── 02_liquidity_regimes.ipynb           # HMM regime classification
-├── 03_factor_decay.ipynb                # IC decay analysis, crossover table
-├── liquidity_regimes.pdf                # Full research paper
+│   ├── tsla_regimes.png                                 # TSLA price path with regime shading
+│   ├── msft_regimes.png                                 # MSFT price path with regime shading
+│   ├── bio_regimes.png                                  # BIO price path with regime shading
+│   ├── ic_decay_curves.png                              # IC decay curves by regime
+│   └── ic_heatmaps.png                                  # Side-by-side momentum vs mean-reversion heatmaps
+├── 01_data_pipeline.ipynb                               # Data ingestion, Lee-Ready, feature engineering
+├── 01_exploration.ipynb                                 # Initial data exploration
+├── 02_liquidity_regimes.ipynb                           # HMM regime classification
+├── 03_factor_decay.ipynb                                # IC decay analysis, crossover table
+├── Microstructure-Informed Factor Decay Analysis.pdf    # Full research paper
 └── README.md
 ```
 ---
