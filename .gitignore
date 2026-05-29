@@ -1,0 +1,6 @@
+data/raw/
+data/processed/
+data/master_metrics.csv
+data/master_metrics_with_regimes.csv
+*.dbn.zst
+*.dbn
