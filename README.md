@@ -35,6 +35,13 @@ This project investigates whether alpha signal decay is a static property of a s
 └── README.md
 ```
 ---
+## 📂 Data Structure (Local Only)
+The following directory structure is required to run the pipeline but is excluded from the repository due to file size constraints (44GB total):
+- `data/raw/`: Raw ITCH MBP-1 .dbn.zst files.
+- `data/processed/`: Daily 5-minute microstructure aggregates.
+- `data/master_metrics.csv`: The combined research dataset.
+- `data/master_metrics_with_regimes.csv`: The final research dataset with HMM lablels.
+  
 
 ## Methodology
 
