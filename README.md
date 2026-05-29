@@ -85,4 +85,4 @@ This project investigates whether alpha signal decay is a static property of a s
 
 ## Research Paper
 
-The full write-up is available in [`Microstructure-Informed Factor Decay Analysis.pdf`](Microstructure-Informed Factor Decay Analysis.pdf), covering methodology, empirical results, and execution implications in detail.
+The full write-up is available in [`Microstructure-Informed Factor Decay Analysis.pdf`], covering methodology, empirical results, and execution implications in detail.
